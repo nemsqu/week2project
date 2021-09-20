@@ -1,0 +1,29 @@
+body {
+  font-family: Garamond;
+}
+
+.header {
+  font-style: italic;
+}
+
+.menu-layout {
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+}
+
+.table {
+  width: 100%;
+}
+#menu-table {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+table#menu-table tr:nth-of-type(2n) {
+  background-color: gainsboro;
+}
+table#menu-table th {
+  background-color: aliceblue;
+  padding: 2px 0 2px 0;
+}
